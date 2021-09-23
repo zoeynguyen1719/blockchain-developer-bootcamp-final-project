@@ -1,5 +1,6 @@
 # blockchain-developer-bootcamp-final-project
 
+I would like to create a Blockchain game for education. I am still thinking with the ideas.
 
 Voting Contract Example Workflow
 
