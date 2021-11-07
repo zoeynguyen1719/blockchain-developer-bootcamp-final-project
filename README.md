@@ -1,6 +1,33 @@
 # blockchain-developer-bootcamp-final-project
 
-I would like to create a Blockchain game for education. I am still thinking with the ideas.
+I would like to create a Blockchain game for education. I am still thinking with the ideas. 
+I would like to build a NFT game on Polygon.
+1. As a first step, just write the function name, what inputs the function requires and what it might return. Start a new file in your Github repo and start to sketch the functions.
+
+Here's what that might look like for our voting example from the first exercise:
+
+1. Users will have to register themselves somehow on the contract
+
+function registerVoter(address _voter) {
+
+	// registers voter
+
+};
+	
+2. They have to identify which campaign their voting on
+
+function registerVote(uint campaignID) {
+
+	// registers the vote of the voter
+
+};
+	
+3. They'll have to submit a vote for that campaign but 4. they can't vote twice for a single campaign.
+
+modifier onlyVoteOnce() { 
+	// checks the vote hasn't voted before 
+	_ 
+};
 
 Voting Contract Example Workflow
 
