@@ -1,6 +1,6 @@
 # blockchain-developer-bootcamp-final-project
 
-I would like to create a Blockchain game for education. I am still thinking with the ideas. 
+I would like to create a Blockchain game for trading education for kids. 
 I would like to build a NFT game on Polygon.
 1. As a first step, just write the function name, what inputs the function requires and what it might return. Start a new file in your Github repo and start to sketch the functions.
 
