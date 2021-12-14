@@ -1,9 +1,8 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.4.21 <0.7.1;
+pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts-ethereum-package/contracts/math/SafeMath.sol";
-import "@openzeppelin/contracts-ethereum-package/contracts/utils/Address.sol";
-
+import "./SafeMath.sol";
+import "./Address.sol";
 import "./Context.sol";
 
 /*

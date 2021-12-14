@@ -89,10 +89,13 @@ contract StableCoin is
         address supplyManager,
         address complianceManager,
         address enforcementManager
+
     ) public ERC20(tokenName, tokenSymbol, tokenDecimal) {
         _supplyManager = supplyManager;
         _complianceManager = complianceManager;
         _enforcementManager = enforcementManager;
+        _tokenName = VISION;
+        _tokenSymbol = VISI;
 
         // Owner has Admin Privileges on all roles
         _setupRole(DEFAULT_ADMIN_ROLE, _msgSender()); // sudo role
