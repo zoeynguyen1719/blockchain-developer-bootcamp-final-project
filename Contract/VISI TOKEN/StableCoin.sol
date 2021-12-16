@@ -94,9 +94,6 @@ contract StableCoin is
         _supplyManager = supplyManager;
         _complianceManager = complianceManager;
         _enforcementManager = enforcementManager;
-        _tokenName = VISION;
-        _tokenSymbol = VISI;
-
         // Owner has Admin Privileges on all roles
         _setupRole(DEFAULT_ADMIN_ROLE, _msgSender()); // sudo role
 

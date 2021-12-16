@@ -23,9 +23,9 @@ abstract contract ERC20 is ContextAware {
     string private _symbol;
     uint8 private _decimals;
 
-    constructor(string memory name, string memory symbol, uint8 decimals) internal {
-        _name = name;
-        _symbol = symbol;
+    constructor(string memory VISION, string memory VISI, uint8 decimals) internal {
+        _name = VISION;
+        _symbol = VISI;
         _decimals = decimals;
     }
 
