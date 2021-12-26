@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "./SafeMath.sol";
-import "./Address.sol";
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+import "@openzeppelin/contracts/utils/Address.sol";
 import "./Context.sol";
 
 /*
@@ -23,10 +23,10 @@ abstract contract ERC20 is ContextAware {
     string private _symbol;
     uint8 private _decimals;
 
-    constructor(string memory VISION, string memory VISI, uint8 decimals) internal {
+    constructor (string memory VISION, string memory VISI, uint8 decimal) {
         _name = VISION;
         _symbol = VISI;
-        _decimals = decimals;
+        _decimals = decimal;
     }
 
     function name() public view returns (string memory) {

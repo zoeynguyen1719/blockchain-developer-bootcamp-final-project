@@ -2,10 +2,10 @@
 pragma solidity ^0.8.0;
 
 import "./Context.sol";
-import "./Pausable.sol";
-import "./Ownable.sol";
-import "./AccessControl.sol";
-import "./ERC20.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Pausable.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/access/AccessControl.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "./ExternallyTransferable.sol";
 
 contract StableCoin is

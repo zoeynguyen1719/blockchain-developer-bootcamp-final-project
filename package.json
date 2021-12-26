@@ -1,0 +1,26 @@
+{
+  "name": "blockchain-developer-bootcamp-final-project",
+  "version": "1.0.0",
+  "description": "I would like to create a Blockchain game for trading education for kids. \r I would like to build a NFT game on Polygon.\r 1. As a first step, just write the function name, what inputs the function requires and what it might return. Start a new file in your Github repo and start to sketch the functions.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoeynguyen1719/blockchain-developer-bootcamp-final-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoeynguyen1719/blockchain-developer-bootcamp-final-project/issues"
+  },
+  "homepage": "https://github.com/zoeynguyen1719/blockchain-developer-bootcamp-final-project#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1"
+  }
+}
