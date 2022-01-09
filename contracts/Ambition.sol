@@ -9,9 +9,7 @@ contract ambiToken is ERC721 {
     mapping (uint256 => string) private _tokenURIs;
 
     constructor(
-        string memory name,
-        string memory symbol
-    ) ERC721(name, symbol) {
+    ) ERC721("AMBITION", "AMBI") {
         tokenCounter = 0;
     }
 
