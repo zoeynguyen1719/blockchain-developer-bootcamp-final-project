@@ -1,8 +1,8 @@
-# Basic Sample Hardhat Project
+# Ambition Token Project
 
 This project is to create an utility token called AMBI (AMBITION), which is going to be used in a crypto trading game app. 
 
-# Demo App
+## Demo App
 
 Try running some of the following tasks:
 
@@ -15,16 +15,16 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
-# Directory Structure
+## Directory Structure
 
 
 
-# Instructions to run DApp locally
+## Instructions to run DApp locally
 
 
 
 
-# Demo Video
+## Demo Video
 
 
-# Public Ethereum Wallet for Certification
+## Public Ethereum Wallet for Certification
