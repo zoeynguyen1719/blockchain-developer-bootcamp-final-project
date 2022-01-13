@@ -29,6 +29,7 @@
     "ethereumjs-testrpc": "^6.0.3",
     "fs-extra": "^10.0.0",
     "i": "^0.3.7",
+    "moralis-admin-cli": "^2.1.16",
     "solc": "^0.8.11",
     "web3": "0.20.1"
   },
