@@ -1,6 +1,8 @@
 # Ambition Token Project
 
 This project is to create an utility token called AMBI (AMBITION), which is going to be used in a crypto trading game app. 
+AMBI token was deployed on Mumbai (Polygon Testnet) Network. 
+The app is built for minting function with lower gas fee (lazy minting).
 
 ## Demo App
 
