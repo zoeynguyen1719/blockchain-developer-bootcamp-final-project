@@ -8,11 +8,10 @@ contract ambiToken is ERC721 {
     uint256 public tokenCounter;
     mapping (uint256 => string) private _tokenURIs;
 
-    constructor(
-    ) ERC721("AMBITION", "AMBI") {
+    constructor() ERC721("AMBITION", "AMBI") {
         tokenCounter = 0;
     }
-
+ 
     function mint(string memory _tokenURI) public {
         _safeMint(msg.sender, tokenCounter);
         _setTokenURI(tokenCounter, _tokenURI);

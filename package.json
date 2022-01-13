@@ -27,6 +27,8 @@
     "babel-preset-react-app": "3",
     "dotenv": "^10.0.0",
     "ethereumjs-testrpc": "^6.0.3",
+    "fs-extra": "^10.0.0",
+    "i": "^0.3.7",
     "solc": "^0.8.11",
     "web3": "0.20.1"
   },
