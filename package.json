@@ -29,7 +29,7 @@
     "ethereumjs-testrpc": "^6.0.3",
     "fs-extra": "^10.0.0",
     "i": "^0.3.7",
-    "mini-css-extract-plugin": "^2.5.0",
+    "mini-css-extract-plugin": "2.4.5",
     "moralis": "^0.0.183",
     "moralis-admin-cli": "^2.1.16",
     "solc": "^0.8.11",
@@ -48,5 +48,3 @@
     "mini-css-extract-plugin": "2.4.5"
   }
 }
-
-
