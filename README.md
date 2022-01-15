@@ -39,10 +39,7 @@ node scripts/sample-script.js
 ```shell
 cd my-app
 npm run start
-<<<<<<< HEAD
 http://localhost:3000/
-=======
->>>>>>> 4fd9a2de177807080c681eabc323e0ac72ad9e8e
 ```
 
 
