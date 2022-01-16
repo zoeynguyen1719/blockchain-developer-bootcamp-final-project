@@ -5,9 +5,7 @@ AMBI token was deployed on Mumbai (Polygon Testnet) Network.
 The app is built for minting function with lower gas fee (lazy minting).
 
 ## Demo App
-
-
-
+https://github.com/zoeynguyen1719/blockchain-developer-bootcamp-final-project
 
 ## Directory Structure
 * Contracts: NFT smart contract writen by ERC721 template.
