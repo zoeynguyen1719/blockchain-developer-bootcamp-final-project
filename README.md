@@ -5,25 +5,26 @@ AMBI token was deployed on Mumbai (Polygon Testnet) Network.
 The app is built for minting function with lower gas fee (lazy minting).
 
 ## Demo App
-https://github.com/zoeynguyen1719/blockchain-developer-bootcamp-final-project
+https://zoeynguyen1719.github.io/blockchain-developer-bootcamp-final-project/
 
 ## Directory Structure
 * Contracts: NFT smart contract writen by ERC721 template.
 * Migration: Migrate smart contract.
 * Test: Testing for smart contract before deployment.
-* My-app: React app to support the front-end.
-
+* My-app: React app for the front-end.
 
 ## Instructions to run DApp locally
 ### Prerequisites:
 
 ```shell
+Openzeppelin
+Node JS
 React
 Hardhat
 Moralis
 Metamask
 ```
-###  Contract
+###  Contract Deployment
 ```shell
 npx hardhat accounts
 npx hardhat compile
@@ -40,9 +41,8 @@ npm run start
 http://localhost:3000/
 ```
 
-
 ## Demo Video
-
+https://youtu.be/XeicptE6RWI
 
 ## Public Ethereum Wallet for Certification
 0x0d9494732Ae5997c46B177a2165926691bd6B930
